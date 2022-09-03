@@ -99,7 +99,6 @@ body {
   color: hsl(204, 43%, 93%);
   font-size: 15px;
   line-height: 1.4;
-  text-align: left;
 }
 
 footer {
@@ -116,11 +115,27 @@ footer {
   .grid-1,
   .grid-2,
   .grid-3 {
-    padding: 1.5rem 3rem;
+    padding: 2rem 3rem;
   }
 
   .grid-1 {
     grid-column: 1 / 3;
+  }
+
+  .grid-1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .grid-1 .guarantee {
+    font-size: 1.1rem;
+  }
+
+  .grid-1 .content {
+    font-size: 1rem;
+  }
+
+  .grid-3 p {
+    line-height: 1.7;
   }
 
   .btn:hover {
